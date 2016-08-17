@@ -16,7 +16,9 @@ It's tries to be as fast as possible and use as little memory as it can.
 Usage is fairly simple.
 
 `ISpellingCorrector sc = new SpellingCorrector(10000);`
+
 `sc.putWord("wrong");`
+
 `sc.correct("wrongs"); // Will return wrong`
 
 Happy hacking.
